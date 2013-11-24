@@ -8,7 +8,7 @@ Features
 
 * Automatische Enbindung von Magnific Popup im Frontend inklusive deutscher Lokalisierung
 * Zusätzliche optionale Einbindung von jQuery
-* Gallerie und Einzelbild Module
+* Galerie und Einzelbild Module
 * Titel und Beschreibungstext für die Bilder wird aus dem Medienpool geholt
 * Automatische suchmaschinenfreundliche Image Manager Urls wenn [SEO42](http://github.com/RexDude/seo42) installiert
 
@@ -21,8 +21,8 @@ Codebeispiel Einzelbild
 </a>
 ```
 
-Codebeispiel Gallerie
----------------------
+Codebeispiel Galerie
+--------------------
 
 ```
 <div class="magnific-popup-gallery">

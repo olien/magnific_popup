@@ -15,7 +15,7 @@ $style = rex_get_file_contents($REX["INCLUDE_PATH"] . "/addons/magnific_popup/mo
 </div>
 
 <div class="rex-addon-output">
-	<h2 class="rex-hl2"><?php echo $I18N->msg('magnific_popup_gallery_module'); ?></h2>
+	<h2 class="rex-hl2"><?php echo $I18N->msg('magnific_popup_image_module'); ?></h2>
 	<div class="rex-area-content module">
 		<p class="headline"><?php echo $I18N->msg('magnific_popup_module_input'); ?></p><?php rex_highlight_string($moduleInput); ?>
 		<p>&nbsp;</p>

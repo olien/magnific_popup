@@ -18,7 +18,7 @@
 #logo {
     cursor: pointer;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 
 #logo h1 {
@@ -32,9 +32,9 @@
 	font-family: Calibri,"PT Sans","Trebuchet MS",'Helvetica Neue',Arial;
     margin: 0;
     text-rendering: optimizelegibility;
-    font-size: 52px;
+    font-size: 49px;
     line-height: 1.4;
-    margin-top: 102px;
+    margin-top: 111px;
     top: 0;
 }
 </style>
@@ -51,7 +51,7 @@
 
       var canvas = document.getElementById('broken-glass'),
           context = canvas.getContext('2d'),
-          width = canvas.width = Math.min(650, window.innerWidth),
+          width = canvas.width = Math.min(600, window.innerWidth),
           height = canvas.height,  
           numTriangles = 100,
           rand = function(min, max){
