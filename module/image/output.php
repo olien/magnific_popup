@@ -1,4 +1,6 @@
 <?php
+// module: magnific_popup_image_out
+
 $imageType = 'magnific_popup_image_thumb';
 $imageFile = 'REX_FILE[1]';
 
@@ -28,7 +30,11 @@ if ($imageFile != '') {
 	if (class_exists('seo42')) {
 		$imageManagerUrl = seo42::getImageManagerUrl($imageFile, $imageType);
 	} else {
-		$imageManagerUrl = $REX['HTDOCS_PATH'] . 'index.php?rex_img_type=' . $imageType . '&amp;rex_img_file=' . $imageFile;
+		if ($REX['REDAXO']) {
+			$imageManagerUrl = $REX['HTDOCS_PATH'] . 'redaxo/index.php?rex_img_type=' . $imageType . '&amp;rex_img_file=' . $imageFile;
+		} else {
+			$imageManagerUrl = $REX['HTDOCS_PATH'] . 'index.php?rex_img_type=' . $imageType . '&amp;rex_img_file=' . $imageFile;
+		}
 	}
 
 	// get dimensions of image manager image
@@ -41,9 +47,11 @@ if ($imageFile != '') {
 		$imageDimensions = '';
 	}
 
-	// finally print html code
+	// html code
+	echo '<div class="magnific-popup-container">';
 	echo '<a class="magnific-popup-image" href="' . $imageUrl . '" title="' . $description . '">';
 	echo '<img src="' . $imageManagerUrl . '"' . $imageDimensions . ' alt="' . $title . '" />';
 	echo '</a>';
+	echo '</div>';
 }
 ?>

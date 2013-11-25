@@ -20,6 +20,8 @@ $(document).ready(function() {
 	$('a.magnific-popup-image').magnificPopup({
 		type: 'image',
 		fixedContentPos: false,
+		removalDelay: 300,
+		mainClass: 'mfp-with-fade',
 		closeOnContentClick: true,
 		image: {
 			cursor: ''
@@ -32,6 +34,8 @@ $(document).ready(function() {
 			delegate: 'a',
 			type: 'image',
 			fixedContentPos: false,
+			removalDelay: 300,
+			mainClass: 'mfp-with-fade',
 			image: {
 				cursor: ''
 			},

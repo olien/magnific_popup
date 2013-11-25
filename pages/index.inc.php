@@ -44,8 +44,8 @@ a.extern,
     padding: 10px 12px;
 }
 
-#rex-page-magnific-popup div.rex-area-content.module {
-	 margin-bottom: 6px;
+#rex-page-magnific-popup div.rex-area-content.module ul {
+	margin-bottom: 16px;
 }
 
 #rex-page-magnific-popup #subpage-help div.rex-addon-content ul {

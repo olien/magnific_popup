@@ -20,13 +20,20 @@ magnific_popup_start_examples2 = CodePen collection
 magnific_popup_settings_include_jquery = Include jQuery
 magnific_popup_settings_save = Save Settings
 
+magnific_popup_settings_imagetype_image = Single image imagetype
+magnific_popup_settings_imagetype_gallery = Gallery image imagetype
+magnific_popup_settings_custom_css = Custom CSS file
+
 magnific_popup_configfile_update = Settingsfile updated.
 magnific_popup_configfile_nosave = Settingsfile could not be saved!
 magnific_popup_configfile_nowrite = Settingsfile "{0}" is not writeable!
 
-magnific_popup_module_requirements = Requirements
-magnific_popup_module_imagetype = Needed imagetype
-magnific_popup_module_style = Needed CSS
 magnific_popup_module_input = Input
 magnific_popup_module_output = Output
 
+magnific_popup_module_name_image = Image (Magnific Popup)
+magnific_popup_module_name_gallery = Gallery (Magnific Popup)
+
+magnific_popup_module_added = Module "{0}" added
+magnific_popup_module_update = Update existing module
+magnific_popup_module_install = Install Module now
