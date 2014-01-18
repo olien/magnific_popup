@@ -42,7 +42,7 @@ Codebeispiel Galerie
 Hinweise
 --------
 
-* Getestet mir REDAXO 4.5
+* Getestet mit REDAXO 4.5
 * AddOn-Ordner lautet: `magnific_popup`
 * Medienpool-Bildtitel ergbit das `alt` Attribute
 * Medienpool-Bildbeschreibung ergbit das `title` Attribute und somit den Bilduntertitel für die Lightbox
