@@ -16,7 +16,7 @@ Features
 Codebeispiel Einzelbild
 -----------------------
 
-```
+```html
 <a class="magnific-popup-image" href="./files/full.jpg" title="Die Bildbeschreibung">
 	<image src="./files/thumb.jpg" width="200" height="200" alt="" />
 </a>
@@ -25,7 +25,7 @@ Codebeispiel Einzelbild
 Codebeispiel Galerie
 --------------------
 
-```
+```html
 <div class="magnific-popup-gallery">
 	<a href="./files/full1.jpg" title="Die Bildbeschreibung #1">
 		<image src="./files/thumb1.jpg" width="200" height="200" alt="" />
@@ -44,8 +44,8 @@ Hinweise
 
 * Getestet mit REDAXO 4.5
 * AddOn-Ordner lautet: `magnific_popup`
-* Medienpool-Bildtitel ergbit das `alt` Attribute
-* Medienpool-Bildbeschreibung ergbit das `title` Attribute und somit den Bilduntertitel für die Lightbox
+* Medienpool-Bildtitel ergibt das `alt` Attribute
+* Medienpool-Bildbeschreibung ergibt das `title` Attribute und somit den Bilduntertitel für die Lightbox
 
 Changelog
 ---------
