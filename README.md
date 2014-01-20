@@ -44,6 +44,8 @@ Hinweise
 
 * Getestet mit REDAXO 4.5
 * AddOn-Ordner lautet: `magnific_popup`
+* Abhängigkeiten: Image Manager AddOn
+* Aussehen der Rahmen für die Thumbs änderbar in der `custom.css`, siehe Einstellungen-Seite
 * Medienpool-Bildtitel ergibt das `alt` Attribute
 * Medienpool-Bildbeschreibung ergibt das `title` Attribute und somit den Bilduntertitel für die Lightbox
 
@@ -55,7 +57,7 @@ siehe [CHANGELOG.md](CHANGELOG.md)
 Lizenz
 ------
 
-* Magnific Popup: siehe `/magnific_popup/files/LICENSE.md` (MIT Lizenz)
+* Magnific Popup: MIT Lizenz
 * Magnific Popup REDAXO AddOn: [LICENSE.md](LICENSE.md) (MIT Lizenz)
 
 Credits
