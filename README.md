@@ -63,6 +63,6 @@ Lizenz
 Credits
 -------
 
-* Magnific Popup Lightbox Plugin by Dmitry Semenov
-* Parsedown Class by Emanuil Rusev
+* [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/) Lightbox Plugin by Dmitry Semenov
+* [Parsedown](http://parsedown.org/) Class by Emanuil Rusev
 

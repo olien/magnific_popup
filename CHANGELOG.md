@@ -1,6 +1,10 @@
 Magnific Popup AddOn - Changelog
 ================================
 
+### Version 1.1.1 - 20. Januar 2014
+
+* Finetuning
+
 ### Version 1.1.0 - 25. November 2013
 
 * Bildtypen werden nun direkt mitgeliefert und automatisch installiert
