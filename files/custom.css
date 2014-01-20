@@ -41,7 +41,7 @@ div.magnific-popup-gallery img {
 	-webkit-box-shadow: 0 0 5px #ccc;
 }
 
-/* ------------- lightbox title ------------- */
+/* ---------- magnific popup title ---------- */
 
 .mfp-title,
 .mfp-counter {
@@ -52,7 +52,12 @@ div.magnific-popup-gallery img {
 	font-size: 13px;
 }
 
-/* ----------- lightbox animation ----------- */
+.mfp-close {
+	font-weight: normal;
+	margin: 0;
+}
+
+/* -------- magnific popup animation -------- */
 
 .mfp-with-fade .mfp-content,
 .mfp-with-fade .mfp-arrow,
