@@ -13,6 +13,11 @@ Features
 * Titel und Beschreibungstext für die Bilder werden aus dem Medienpool geholt
 * Automatische suchmaschinenfreundliche Image Manager Urls wenn [SEO42](http://github.com/RexDude/seo42) installiert
 
+jQuery einbinden oder nicht?
+----------------------------
+
+Standardmäßig wird die benötigte JavaScript-Bibliothek jQuery automatisch eingebunden. Bindet man diese jedoch bereits "von Hand" ein oder über ein anderes Addon, sollte man unter den Einstellungen die entsprechende Checkbox wegklicken. 
+
 Codebeispiel Einzelbild
 -----------------------
 
