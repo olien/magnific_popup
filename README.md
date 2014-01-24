@@ -18,6 +18,11 @@ jQuery einbinden oder nicht?
 
 Standardmäßig wird die benötigte JavaScript-Bibliothek jQuery automatisch eingebunden. Bindet man diese jedoch bereits "von Hand" ein oder über ein anderes Addon, sollte man unter den Einstellungen die entsprechende Checkbox wegklicken. 
 
+Was hat es mit der Custom CSS aufsich?
+--------------------------------------
+
+Unter Einstellungen wird eine `custom.css` Datei angegeben. Dort sind hauptsächlich die Styles für die Bild-Rahmen, aber auch die Styles für die Galerie definiert. Bei Bedarf bitte abändern.
+
 Codebeispiel Einzelbild
 -----------------------
 
