@@ -23,7 +23,7 @@ Codebeispiel Einzelbild
 
 ```html
 <a class="magnific-popup-image" href="./files/full.jpg" title="Die Bildbeschreibung">
-	<image src="./files/thumb.jpg" width="200" height="200" alt="" />
+	<img src="./files/thumb.jpg" width="200" height="200" alt="" />
 </a>
 ```
 
@@ -33,13 +33,13 @@ Codebeispiel Galerie
 ```html
 <div class="magnific-popup-gallery">
 	<a href="./files/full1.jpg" title="Die Bildbeschreibung #1">
-		<image src="./files/thumb1.jpg" width="200" height="200" alt="" />
+		<img src="./files/thumb1.jpg" width="200" height="200" alt="" />
 	</a>
 	<a href="./files/full2.jpg" title="Die Bildbeschreibung #2">
-		<image src="./files/thumb2.jpg" width="200" height="200" alt="" />
+		<img src="./files/thumb2.jpg" width="200" height="200" alt="" />
 	</a>
 	<a href="./files/full3.jpg" title="Die Bildbeschreibung #3">
-		<image src="./files/thumb3.jpg" width="200" height="200" alt="" />
+		<img src="./files/thumb3.jpg" width="200" height="200" alt="" />
 	</a>
 </div>
 ```
