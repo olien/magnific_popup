@@ -21,7 +21,7 @@ Standardmäßig wird die benötigte JavaScript-Bibliothek jQuery automatisch ein
 Was hat es mit der Custom CSS aufsich?
 --------------------------------------
 
-Unter Einstellungen wird eine `custom.css` Datei angegeben. Dort sind hauptsächlich die Styles für die Bild-Rahmen, aber auch die Styles für die Galerie definiert. Bei Bedarf bitte abändern.
+Unter Einstellungen wird eine `custom.css` Datei angegeben. Dort sind hauptsächlich die Styles für die Bild-Rahmen, etc. definiert. Bei Bedarf bitte abändern bzw. die Styles per `!important` Statement im der eigenen CSS-Datei überschreiben.
 
 Codebeispiel Einzelbild
 -----------------------
