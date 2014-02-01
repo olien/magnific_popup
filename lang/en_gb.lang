@@ -37,3 +37,5 @@ magnific_popup_module_name_gallery = Gallery (Magnific Popup)
 magnific_popup_module_added = Module "{0}" added
 magnific_popup_module_update = Update existing module
 magnific_popup_module_install = Install Module now
+
+magnific_popup_module_update_msg = Do you really want to update the module?

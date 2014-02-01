@@ -37,3 +37,5 @@ magnific_popup_module_name_gallery = Galerie (Magnific Popup)
 magnific_popup_module_added = Modul "{0}" wurde angelegt
 magnific_popup_module_update = Bestehendes Modul aktualisieren
 magnific_popup_module_install = Modul jetzt automatisch installieren
+
+magnific_popup_module_update_msg = Sind Sie sicher, dass Sie das bestehende Modul aktualisieren wollen?
