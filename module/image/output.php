@@ -30,7 +30,7 @@ if ($imageFile != '') {
 	if (method_exists('seo42', 'getImageManagerFile')) {
 		$imageManagerUrl = seo42::getImageManagerFile($imageFile, $imageType);
 	} elseif (method_exists('seo42', 'getImageManagerUrl')) { // compat
-		$imageManagerUrl = seo42::getImageManagerFile($imageFile, $imageType);
+		$imageManagerUrl = seo42::getImageManagerUrl($imageFile, $imageType);
 	} else {
 		if ($REX['REDAXO']) {
 			$imageManagerUrl = $REX['HTDOCS_PATH'] . 'redaxo/index.php?rex_img_type=' . $imageType . '&amp;rex_img_file=' . $imageFile;
