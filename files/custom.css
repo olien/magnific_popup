@@ -31,7 +31,7 @@ div.magnific-popup-gallery .clearer {
 
 /* -------------- image border -------------- */
 
-a.magnific-popup-image img,
+/* a.magnific-popup-image img,
 div.magnific-popup-gallery img {
 	background: #fff;
 	border: 1px solid #d3d3d3;
@@ -39,7 +39,7 @@ div.magnific-popup-gallery img {
 	box-shadow: 0 0 5px #ccc;
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
-}
+} */
 
 /* ---------- magnific popup title ---------- */
 

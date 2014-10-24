@@ -52,7 +52,7 @@ Codebeispiel Galerie
 Hinweise
 --------
 
-* Getestet mit REDAXO 4.5
+* Getestet mit REDAXO 4.5, 4.6
 * AddOn-Ordner lautet: `magnific_popup`
 * Abhängigkeiten: Image Manager AddOn
 * Aussehen der Rahmen für die Thumbs änderbar in der `custom.css`, siehe Einstellungen-Seite

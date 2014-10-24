@@ -28,7 +28,7 @@ if ($imageFile != '') {
 
 	// generate image manager url
 	if (class_exists('seo42')) {
-		$imageManagerUrl = seo42::getImageManagerUrl($imageFile, $imageType);
+		$imageManagerUrl = seo42::getImageManagerFile($imageFile, $imageType);
 	} else {
 		if ($REX['REDAXO']) {
 			$imageManagerUrl = $REX['HTDOCS_PATH'] . 'redaxo/index.php?rex_img_type=' . $imageType . '&amp;rex_img_file=' . $imageFile;

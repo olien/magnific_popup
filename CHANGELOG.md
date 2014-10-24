@@ -1,6 +1,12 @@
 Magnific Popup AddOn - Changelog
 ================================
 
+### Version 1.3.0 DEV
+
+* Bilderrahmen in CSS standardmäßig entfernt
+* Kompatibilität zu SEO42 4.0+ hergestellt
+* Lokalisierung verbessert
+
 ### Version 1.2.0 - 17. April 2014
 
 * Galerie ImageType verbessert. Alle Thumbs haben jetzt die gleiche Höhe und Breite. Sharpen Filter entfernt.
