@@ -10,14 +10,23 @@ $REX['ADDON']['perm']['magnific_popup'] = 'magnific_popup[]';
 // permissions
 $REX['PERM'][] = 'magnific_popup[]';
 
+// add lang file
+if ($REX['REDAXO']) {
+	$I18N->appendFile($REX['INCLUDE_PATH'] . '/addons/magnific_popup/lang/');
+}
+
 // includes
-require($REX['INCLUDE_PATH'] . '/addons/magnific_popup/settings.inc.php');
 require($REX['INCLUDE_PATH'] . '/addons/magnific_popup/classes/class.rex_magnific_popup_utils.inc.php');
 
-if ($REX['REDAXO']) {
-	// add lang file
-	$I18N->appendFile($REX['INCLUDE_PATH'] . '/addons/magnific_popup/lang/');
+// default settings (user settings are saved in data dir!)
+$REX['ADDON']['magnific_popup']['settings'] = array(
+	'include_jquery' => true
+);
 
+// overwrite default settings with user settings
+rex_magnific_popup_utils::includeSettingsFile();
+
+if ($REX['REDAXO']) {
 	// add subpages
 	$REX['ADDON']['magnific_popup']['SUBPAGES'] = array(
 		array('', $I18N->msg('magnific_popup_start')),

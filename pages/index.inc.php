@@ -61,6 +61,10 @@ a.extern,
 	font-weight: bold;
 	margin-bottom: 3px;
 }
+
+#rex-page-magnific-popup input[type=checkbox] {
+	width: auto;
+}
 </style>
 
 <?php 

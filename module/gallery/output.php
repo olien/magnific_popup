@@ -34,7 +34,9 @@ if ($mediaList != '') {
 		$imageUrl = $REX['HTDOCS_PATH'] . $mediaDir . '/' . $imageFile;
 
 		// generate image manager url
-		if (class_exists('seo42')) {
+		if (method_exists('seo42', 'getImageManagerFile')) {
+			$imageManagerUrl = seo42::getImageManagerFile($imageFile, $imageType);
+		} elseif (method_exists('seo42', 'getImageManagerUrl')) { // compat
 			$imageManagerUrl = seo42::getImageManagerFile($imageFile, $imageType);
 		} else {
 			if ($REX['REDAXO']) {

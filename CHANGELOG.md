@@ -3,8 +3,9 @@ Magnific Popup AddOn - Changelog
 
 ### Version 1.3.0 DEV
 
-* Bilderrahmen in CSS standardmäßig entfernt
+* Updatefähigkeit für REDAXO 4.6 hergestellt. Einstellungen werden jetzt im Data-Ordner gespeichert.
 * Kompatibilität zu SEO42 4.0+ hergestellt
+* Bilderrahmen in CSS standardmäßig entfernt
 * Lokalisierung verbessert
 
 ### Version 1.2.0 - 17. April 2014

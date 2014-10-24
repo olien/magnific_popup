@@ -24,9 +24,10 @@ magnific_popup_settings_imagetype_image = Single image imagetype
 magnific_popup_settings_imagetype_gallery = Gallery image imagetype
 magnific_popup_settings_custom_css = Custom CSS file
 
-magnific_popup_configfile_update = Settingsfile updated.
-magnific_popup_configfile_nosave = Settingsfile could not be saved!
-magnific_popup_configfile_nowrite = Settingsfile "{0}" is not writeable!
+magnific_popup_config_ok = Settings have been updated.
+magnific_popup_config_error = Settings could not be updated!
+magnific_popup_install_make_dir = The folder "/redaxo/include/{0}/" can not be created, check for write access or create the folder manually!
+magnific_popup_install_perm_dir = The folder "/redaxo/include/{0}/" needs write access!
 
 magnific_popup_module_input = Input
 magnific_popup_module_output = Output
