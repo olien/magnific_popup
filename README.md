@@ -52,7 +52,7 @@ Codebeispiel Galerie
 Nur den ersten Thumb einer Galerie anzeigen
 -------------------------------------------
 
-```html
+```css
 div.magnific-popup-gallery a {
    display: none;
 }
