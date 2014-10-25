@@ -1,7 +1,7 @@
 Magnific Popup AddOn - Changelog
 ================================
 
-### Version 1.3.0 DEV
+### Version 1.3.0 - 25. Oktober 2014
 
 * Updatefähigkeit für REDAXO 4.6 hergestellt. Einstellungen werden jetzt im Data-Ordner gespeichert.
 * Kompatibilität zu SEO42 4.0+ hergestellt
