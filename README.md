@@ -49,6 +49,19 @@ Codebeispiel Galerie
 </div>
 ```
 
+Nur den ersten Thumb einer Galerie anzeigen
+-------------------------------------------
+
+```html
+div.magnific-popup-gallery a {
+   display: none;
+}
+
+div.magnific-popup-gallery a:first-child {
+   display: block;
+}
+```
+
 Hinweise
 --------
 

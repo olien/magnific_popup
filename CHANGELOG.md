@@ -1,6 +1,10 @@
 Magnific Popup AddOn - Changelog
 ================================
 
+### Next Version 
+
+* Codebeispiel "Nur den ersten Thumb einer Galerie anzeigen" hinzugefügt
+
 ### Version 1.3.0 - 25. Oktober 2014
 
 * Updatefähigkeit für REDAXO 4.6 hergestellt. Einstellungen werden jetzt im Data-Ordner gespeichert.
