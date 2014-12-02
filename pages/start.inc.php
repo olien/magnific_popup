@@ -5,7 +5,7 @@
 			<canvas id="broken-glass"></canvas>
 				<h1 id="logo-title"><?php echo $I18N->msg('magnific_popup_start_magnific_popup'); ?></h1>
 		</div>
-		<br />
+		<br /><br />
 		<ul>
 			<li><a class="extern" target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/documentation.html"><?php echo $I18N->msg('magnific_popup_start_docs'); ?></a></li>
 			<li><a class="extern" target="_blank" href="http://dimsemenov.com/plugins/magnific-popup/"><?php echo $I18N->msg('magnific_popup_start_homepage'); ?></a></li>
@@ -18,7 +18,7 @@
 #logo {
     cursor: pointer;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 #logo h1 {
@@ -34,7 +34,7 @@
     text-rendering: optimizelegibility;
     font-size: 49px;
     line-height: 1.4;
-    margin-top: 111px;
+    margin-top: 131px;
     top: 0;
 }
 </style>
