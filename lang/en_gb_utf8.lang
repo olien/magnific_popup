@@ -1,10 +1,12 @@
 magnific_popup_addon_help = Adds the jQuery lightbox plugin Magnific Popup to REDAXO Websites.
 
 magnific_popup_start = Start
-magnific_popup_image_module = Image Module
-magnific_popup_gallery_module = Gallery Module
+magnific_popup_modules = Module
 magnific_popup_settings = Settings
 magnific_popup_help = Help
+
+magnific_popup_modules_image_module = Image Module
+magnific_popup_modules_gallery_module = Gallery Module
 
 magnific_popup_help_chapter_readme = Readme
 magnific_popup_help_chapter_changelog = Changelog

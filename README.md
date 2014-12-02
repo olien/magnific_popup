@@ -13,6 +13,11 @@ Features
 * Titel und Beschreibungstext für die Bilder werden aus dem Medienpool geholt
 * Automatische suchmaschinenfreundliche Image Manager Urls wenn [SEO42](http://github.com/RexDude/seo42) installiert
 
+Addon Update
+------------
+
+Nach einem Update des Addons sollte zuerst eine Reinstallation durchgeführt werden. Danach bitte den Browser-Cache komplett löschen!
+
 Wichtig! jQuery einbinden oder nicht?
 -------------------------------------
 

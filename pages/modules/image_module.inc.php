@@ -45,27 +45,21 @@ if (isset($_REQUEST["install"]) && $_REQUEST["install"] == 1) {
 }
 ?>
 
-<div class="rex-addon-output">
-	<h2 class="rex-hl2"><?php echo $I18N->msg('magnific_popup_image_module'); ?></h2>
-	<div class="rex-area-content module">
-		<ul>
-		<?php
-			if ($module_id > 0) {
-				if (!isset($_REQUEST["install"])) {
-					echo '<li><a id="update-module" href="index.php?page=magnific_popup&amp;subpage=image_module&amp;install=1&amp;module_id=' . $module_id . '">' . $I18N->msg('magnific_popup_module_update') . '</a></li>';
-				}
-    		} else {
-				if (!isset($_REQUEST["install"])) {
-					echo '<li><a href="index.php?page=magnific_popup&amp;subpage=image_module&amp;install=1">' . $I18N->msg('magnific_popup_module_install') . '</a></li>';
-				}
-			}
-		?>		
-		</ul>
-		<p class="headline"><?php echo $I18N->msg('magnific_popup_module_input'); ?></p><?php rex_highlight_string($moduleInput); ?>
-		<p>&nbsp;</p>
-		<p class="headline"><?php echo $I18N->msg('magnific_popup_module_output'); ?></p><?php rex_highlight_string($moduleOutput); ?>
-	</div>
-</div>
+<p class="top-margin">
+<?php
+	if ($module_id > 0) {
+		if (!isset($_REQUEST["install"])) {
+			echo '<a id="update-module" href="index.php?page=magnific_popup&amp;subpage=modules&amp;install=1&amp;module_id=' . $module_id . '">&gt;&gt; ' . $I18N->msg('magnific_popup_module_update') . '</a>';
+		}
+	} else {
+		if (!isset($_REQUEST["install"])) {
+			echo '<a href="index.php?page=magnific_popup&amp;subpage=modules&amp;install=1">&gt;&gt; ' . $I18N->msg('magnific_popup_module_install') . '</a>';
+		}
+	}
+?>		
+</p>
+<p class="headline"><?php echo $I18N->msg('magnific_popup_module_input'); ?></p><?php rex_highlight_string($moduleInput); ?>
+<p class="headline"><?php echo $I18N->msg('magnific_popup_module_output'); ?></p><?php rex_highlight_string($moduleOutput); ?>
 
 <script type="text/javascript">
 jQuery(document).ready( function() {
