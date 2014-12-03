@@ -1,7 +1,7 @@
 Magnific Popup AddOn - Changelog
 ================================
 
-### Version 1.3.1 DEV
+### Version 1.3.1 - 03. Dezember 2014
 
 * Codebeispiel "Nur den ersten Thumb einer Galerie anzeigen" zur Readme hinzugefügt
 * Update-Hinweis zur Readme hinzugefügt
