@@ -30,15 +30,18 @@ if ($mediaList != '') {
 			$description = '';
 		}
 
-		// generate image url
-		$imageUrl = $REX['HTDOCS_PATH'] . $mediaDir . '/' . $imageFile;
-
 		// generate image manager url
 		if (method_exists('seo42', 'getImageManagerFile')) {
 			$imageManagerUrl = seo42::getImageManagerFile($imageFile, $imageType);
+			$imageUrl = seo42::getMediaDir() . $imageFile;
+
 		} elseif (method_exists('seo42', 'getImageManagerUrl')) { // compat
 			$imageManagerUrl = seo42::getImageManagerUrl($imageFile, $imageType);
+			$imageUrl = seo42::getMediaDir() . $imageFile;
+
 		} else {
+			$imageUrl = $REX['HTDOCS_PATH'] . $mediaDir . '/' . $imageFile;
+
 			if ($REX['REDAXO']) {
 				$imageManagerUrl = $REX['HTDOCS_PATH'] . 'redaxo/index.php?rex_img_type=' . $imageType . '&amp;rex_img_file=' . $imageFile;
 			} else {

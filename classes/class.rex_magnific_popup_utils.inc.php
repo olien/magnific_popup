@@ -3,17 +3,23 @@ class rex_magnific_popup_utils {
 	public static function includeMagnificPopup($params) {
 		global $REX;
 
-		$insert = PHP_EOL;
-		$insert .= "\t" . '<!-- BEGIN AddOn Magnific Popup -->' . PHP_EOL;
-		$insert .= "\t" . '<link rel="stylesheet" type="text/css" href="' . $REX['HTDOCS_PATH'] . 'files/addons/magnific_popup/magnific-popup.css" media="screen" />' . PHP_EOL;
-		$insert .= "\t" . '<link rel="stylesheet" type="text/css" href="' . $REX['HTDOCS_PATH'] . 'files/addons/magnific_popup/custom.css" media="screen" />' . PHP_EOL;
-	
-		if ($REX['ADDON']['magnific_popup']['settings']['include_jquery']) {
-			$insert .= "\t" . '<script type="text/javascript" src="' . $REX['HTDOCS_PATH'] . 'files/addons/magnific_popup/jquery.min.js"></script>' . PHP_EOL;			
+		if(method_exists('seo42', 'getMediaDir')) {
+			$urlStart = seo42::getMediaDir();
+		} else {
+			$urlStart = $REX['HTDOCS_PATH'] . 'files/';
 		}
 
-		$insert .= "\t" . '<script type="text/javascript" src="' . $REX['HTDOCS_PATH'] . 'files/addons/magnific_popup/jquery.magnific-popup.min.js"></script>' . PHP_EOL;
-		$insert .= "\t" . '<script type="text/javascript" src="' . $REX['HTDOCS_PATH'] . 'files/addons/magnific_popup/init.js"></script>' . PHP_EOL;
+		$insert = PHP_EOL;
+		$insert .= "\t" . '<!-- BEGIN AddOn Magnific Popup -->' . PHP_EOL;
+		$insert .= "\t" . '<link rel="stylesheet" type="text/css" href="' . $urlStart . 'addons/magnific_popup/magnific-popup.css" media="screen" />' . PHP_EOL;
+		$insert .= "\t" . '<link rel="stylesheet" type="text/css" href="' . $urlStart . 'addons/magnific_popup/custom.css" media="screen" />' . PHP_EOL;
+	
+		if ($REX['ADDON']['magnific_popup']['settings']['include_jquery']) {
+			$insert .= "\t" . '<script type="text/javascript" src="' . $urlStart . 'addons/magnific_popup/jquery.min.js"></script>' . PHP_EOL;
+		}
+
+		$insert .= "\t" . '<script type="text/javascript" src="' . $urlStart . 'addons/magnific_popup/jquery.magnific-popup.min.js"></script>' . PHP_EOL;
+		$insert .= "\t" . '<script type="text/javascript" src="' . $urlStart . 'addons/magnific_popup/init.js"></script>' . PHP_EOL;
 		$insert .= "\t" . '<!-- END AddOn Magnific Popup -->' . PHP_EOL;
 		
 		return str_replace('</head>', $insert . '</head>', $params['subject']);
